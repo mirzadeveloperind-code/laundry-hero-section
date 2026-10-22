@@ -405,7 +405,6 @@ body {
     color: #fff;
     border-radius: 8px;
 }
-
 .cta-button:hover {
   transform: scale(1.1) rotate(-3deg);
 }
