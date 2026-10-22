@@ -398,7 +398,12 @@ body {
 
 /* CTA Button Hover Effect */
 .cta-button {
-  transition: transform 0.3s ease;
+    transition: transform 0.3s ease;
+    background: dodgerblue;
+    padding: 10px 25px;
+    border: none;
+    color: #fff;
+    border-radius: 8px;
 }
 
 .cta-button:hover {
