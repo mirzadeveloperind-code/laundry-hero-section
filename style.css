@@ -409,3 +409,32 @@ body {
   transform: scale(1.1) rotate(-3deg);
 }
 
+/* Hero Image Animation */
+.hero-image img {
+  animation: orbitSqueeze 5s ease-in-out infinite;
+  transform-origin: center;
+}
+
+@keyframes orbitSqueeze {
+  0% {
+    transform: rotate(0deg) scale(1, 1);
+  }
+
+  25% {
+    transform: rotate(8deg) scale(0.95, 1.05);
+  }
+
+  50% {
+    transform: rotate(0deg) scale(1.05, 0.9);
+  }
+
+  75% {
+    transform: rotate(-8deg) scale(0.95, 1.05);
+  }
+
+  100% {
+    transform: rotate(0deg) scale(1, 1);
+  }
+}
+
+
